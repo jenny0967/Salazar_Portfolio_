@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5, user-scalable=yes">
+    <title>SysAdmin Portfolio | Jennybill Salazar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Animated background shapes -->
+    <div class="bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+    </div>
+
+    <!-- Sticky navigation menu -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#home">
+                    <span class="logo-icon"><i class="fas fa-server"></i></span>
+                    <span class="logo-text">SysAdmin<span class="accent">.</span></span>
+                </a>
+            </div>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#learning">Learning Resources</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <!-- HOME section -->
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <div class="hero-badge animate-on-scroll"><i class="fas fa-bolt"></i> Aspiring System Administrator</div>
+                <h1 class="hero-title animate-on-scroll delay-1">
+                    Building <span class="gradient-text">Reliable Systems</span><br> &amp; <span class="gradient-text">Beautiful</span> Experiences
+                </h1>
+                <p class="hero-subtitle animate-on-scroll delay-2">
+                    I'm <strong>Jennybill Salazar</strong> — an IT student passionate about system administration, networking, and design. This portfolio showcases my certifications, skills, and learning journey.
+                </p>
+                <div class="hero-cta animate-on-scroll delay-3">
+                    <a href="#certifications" class="btn btn-primary"><i class="fas fa-award"></i> View Certifications</a>
+                    <a href="#about" class="btn btn-ghost"><i class="fas fa-user"></i> About Me</a>
+                </div>
+                <div class="hero-stats animate-on-scroll delay-4">
+                    <div class="stat-card">
+                        <span class="stat-number">6+</span>
+                        <span class="stat-label">Certifications</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">12+</span>
+                        <span class="stat-label">Core Skills</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">8+</span>
+                        <span class="stat-label">Learning Resources</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CERTIFICATIONS SECTION -->
+        <section id="certifications">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <span class="section-tag"><i class="fas fa-award"></i> Credentials</span>
+                    <h2 class="section-title">My <span class="gradient-text">Certifications</span></h2>
+                    <p class="section-subtitle">Professional certifications I've earned or am currently pursuing in system administration, networking, and design.</p>
+                </div>
+                <div class="cert-grid">
+                    <div class="cert-card animate-on-scroll delay-1">
+                        <div class="cert-card-top">
+                            <div class="cert-icon microsoft"><i class="fab fa-windows"></i></div>
+                            <span class="cert-badge completed"><i class="fas fa-check-circle"></i> Completed</span>
+                        </div>
+                        <h3>Microsoft Azure Fundamentals</h3>
+                        <p class="cert-issuer"><i class="fas fa-building"></i> Microsoft</p>
+                        <p class="cert-desc">Foundational knowledge of cloud concepts, Azure services, security, and pricing models.</p>
+                    </div>
+                    <div class="cert-card animate-on-scroll delay-2">
+                        <div class="cert-card-top">
+                            <div class="cert-icon linux"><i class="fab fa-linux"></i></div>
+                            <span class="cert-badge progress"><i class="fas fa-spinner"></i> In Progress</span>
+                        </div>
+                        <h3>Linux Professional Institute LPIC-1</h3>
+                        <p class="cert-issuer"><i class="fas fa-building"></i> LPI</p>
+                        <p class="cert-desc">Entry-level Linux administration: system architecture, package management, and networking.</p>
+                    </div>
+                    <div class="cert-card animate-on-scroll delay-3">
+                        <div class="cert-card-top">
+                            <div class="cert-icon cisco"><i class="fas fa-network-wired"></i></div>
+                            <span class="cert-badge progress"><i class="fas fa-spinner"></i> In Progress</span>
+                        </div>
+                        <h3>Cisco CCNA</h3>
+                        <p class="cert-issuer"><i class="fas fa-building"></i> Cisco</p>
+                        <p class="cert-desc">Routing, switching, network fundamentals, and security essentials for enterprise networks.</p>
+                    </div>
+                    <div class="cert-card animate-on-scroll delay-4">
+                        <div class="cert-card-top">
+                            <div class="cert-icon security"><i class="fas fa-shield-halved"></i></div>
+                            <span class="cert-badge planned"><i class="fas fa-calendar"></i> Planned</span>
+                        </div>
+                        <h3>CompTIA Security+</h3>
+                        <p class="cert-issuer"><i class="fas fa-building"></i> CompTIA</p>
+                        <p class="cert-desc">Core security concepts, threat management, cryptography, and regulatory compliance.</p>
+                    </div>
+                    <div class="cert-card animate-on-scroll delay-5">
+                        <div class="cert-card-top">
+                            <div class="cert-icon aws"><i class="fas fa-cloud"></i></div>
+                            <span class="cert-badge planned"><i class="fas fa-calendar"></i> Planned</span>
+                        </div>
+                        <h3>AWS Cloud Practitioner</h3>
+                        <p class="cert-issuer"><i class="fas fa-building"></i> Amazon Web Services</p>
+                        <p class="cert-desc">Cloud fundamentals, AWS core services, security, and billing architecture.</p>
+                    </div>
+                    <div class="cert-card animate-on-scroll delay-6">
+                        <div class="cert-card-top">
+                            <div class="cert-icon design"><i class="fas fa-palette"></i></div>
+                            <span class="cert-badge completed"><i class="fas fa-check-circle"></i> Completed</span>
+                        </div>
+                        <h3>Google UX Design</h3>
+                        <p class="cert-issuer"><i class="fas fa-building"></i> Google</p>
+                        <p class="cert-desc">Design thinking, wireframing, prototyping, and user-centered design principles.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION (REDESIGNED TO MATCH SCREENSHOT) -->
+        <section id="skills">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+
+                    <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+                    <p class="section-subtitle">A combination of technical, creative, and professional skills that make me an effective System Administrator.</p>
+                </div>
+
+                <div class="skills-cards-grid">
+                    <!-- Card 1 -->
+                    <div class="skill-card animate-on-scroll delay-1">
+                        <div class="skill-icon-box">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3>System Administration</h3>
+                        <p>Managing Windows Server and Linux environments, handling user permissions, OS installation, and system maintenance. Focus on stability and security.</p>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="skill-card animate-on-scroll delay-2">
+                        <div class="skill-icon-box">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h3>Networking</h3>
+                        <p>Understanding of TCP/IP, DNS, DHCP, and VPNs. Configuring routers, switches, and firewalls to ensure reliable and secure data communication.</p>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="skill-card animate-on-scroll delay-3">
+                        <div class="skill-icon-box">
+                            <i class="fas fa-terminal"></i>
+                        </div>
+                        <h3>Scripting &amp; Automation</h3>
+                        <p>Using Bash and PowerShell to automate routine tasks, manage system configurations, and streamline deployment processes across multiple servers.</p>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="skill-card animate-on-scroll delay-4">
+                        <div class="skill-icon-box">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3>UI / Visual Design</h3>
+                        <p>Creating clean, modern interfaces with strong visual hierarchy, color theory, and typography. Focus on layouts that are both beautiful and easy to use across different devices.</p>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="skill-card animate-on-scroll delay-5">
+                        <div class="skill-icon-box">
+                            <i class="fas fa-pen-nib"></i>
+                        </div>
+                        <h3>Graphic Design</h3>
+                        <p>Designing logos, posters, social media graphics, and brand assets. Using tools like Figma, Photoshop, or Canva to produce professional visual content for digital and print.</p>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="skill-card animate-on-scroll delay-6">
+                        <div class="skill-icon-box">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Web Design &amp; Development</h3>
+                        <p>Building responsive websites with HTML, CSS, and JavaScript. Translating design mockups into functional, accessible, and mobile-friendly web pages.</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- LEARNING RESOURCES SECTION -->
+        <section id="learning">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <span class="section-tag"><i class="fas fa-graduation-cap"></i> Growth</span>
+                    <h2 class="section-title">Learning <span class="gradient-text">Resources</span></h2>
+                    <p class="section-subtitle">Curated platforms, courses, and tools I use to continuously grow my system administration and design knowledge.</p>
+                </div>
+
+                <div class="resources-grid">
+                    <a href="https://www.coursera.org" target="_blank" rel="noopener" class="resource-card animate-on-scroll delay-1">
+                        <div class="resource-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="resource-info">
+                            <h3>Coursera</h3>
+                            <p>University-level courses on cloud, networking, and system administration.</p>
+                        </div>
+                        <i class="fas fa-arrow-up-right-from-square resource-arrow"></i>
+                    </a>
+                    <a href="https://www.freecodecamp.org" target="_blank" rel="noopener" class="resource-card animate-on-scroll delay-2">
+                        <div class="resource-icon"><i class="fas fa-laptop-code"></i></div>
+                        <div class="resource-info">
+                            <h3>freeCodeCamp</h3>
+                            <p>Free interactive curriculum covering web development and IT fundamentals.</p>
+                        </div>
+                        <i class="fas fa-arrow-up-right-from-square resource-arrow"></i>
+                    </a>
+                    <a href="https://www.youtube.com" target="_blank" rel="noopener" class="resource-card animate-on-scroll delay-3">
+                        <div class="resource-icon"><i class="fab fa-youtube"></i></div>
+                        <div class="resource-info">
+                            <h3>YouTube — NetworkChuck</h3>
+                            <p>Practical Linux, networking, Docker, and home-lab tutorials.</p>
+                        </div>
+                        <i class="fas fa-arrow-up-right-from-square resource-arrow"></i>
+                    </a>
+                    <a href="https://tldp.org" target="_blank" rel="noopener" class="resource-card animate-on-scroll delay-4">
+                        <div class="resource-icon"><i class="fas fa-book"></i></div>
+                        <div class="resource-info">
+                            <h3>Linux Documentation</h3>
+                            <p>Authoritative reference for Linux commands and system configuration.</p>
+                        </div>
+                        <i class="fas fa-arrow-up-right-from-square resource-arrow"></i>
+                    </a>
+                    <a href="https://www.figma.com/resource-library/" target="_blank" rel="noopener" class="resource-card animate-on-scroll delay-5">
+                        <div class="resource-icon"><i class="fas fa-palette"></i></div>
+                        <div class="resource-info">
+                            <h3>Figma Learn</h3>
+                            <p>Design resources for UI/UX, prototyping, and design thinking.</p>
+                        </div>
+                        <i class="fas fa-arrow-up-right-from-square resource-arrow"></i>
+                    </a>
+                    <a href="https://skillbuilder.aws" target="_blank" rel="noopener" class="resource-card animate-on-scroll delay-6">
+                        <div class="resource-icon"><i class="fas fa-cloud"></i></div>
+                        <div class="resource-info">
+                            <h3>AWS Skill Builder</h3>
+                            <p>Free digital training for cloud fundamentals and AWS services.</p>
+                        </div>
+                        <i class="fas fa-arrow-up-right-from-square resource-arrow"></i>
+                    </a>
+                    <a href="https://tryhackme.com" target="_blank" rel="noopener" class="resource-card animate-on-scroll delay-7">
+                        <div class="resource-icon"><i class="fas fa-terminal"></i></div>
+                        <div class="resource-info">
+                            <h3>TryHackMe</h3>
+                            <p>Hands-on cybersecurity and sysadmin labs in a gamified environment.</p>
+                        </div>
+                        <i class="fas fa-arrow-up-right-from-square resource-arrow"></i>
+                    </a>
+                    <a href="https://learn.microsoft.com" target="_blank" rel="noopener" class="resource-card animate-on-scroll delay-8">
+                        <div class="resource-icon"><i class="fas fa-server"></i></div>
+                        <div class="resource-info">
+                            <h3>Microsoft Learn</h3>
+                            <p>Official training for Windows Server, Azure, and PowerShell.</p>
+                        </div>
+                        <i class="fas fa-arrow-up-right-from-square resource-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT DEVELOPER -->
+        <section id="about">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <span class="section-tag"><i class="fas fa-user"></i> Who I Am</span>
+                    <h2 class="section-title">About the <span class="gradient-text">Developer</span></h2>
+                </div>
+                <div class="about-wrapper animate-on-scroll delay-1">
+                    <div class="about-visual">
+                        <div class="about-avatar">
+                            <i class="fas fa-user-astronaut"></i>
+                        </div>
+                        <div class="about-glow"></div>
+                    </div>
+                    <div class="about-content">
+                        <h3>Jennybill Salazar</h3>
+                        <p class="about-role"><i class="fas fa-graduation-cap"></i> BS Information Technology / Computer Science</p>
+                        <p>"Hi, I’m Jennybill! I’m an IT student with a strong passion for servers, system reliability, and user-focused design. I really enjoy setting up and troubleshooting infrastructure, automating repetitive tasks, and designing interfaces
+                            that are both functional and clean. What draws me to technology is the constant challenge of solving real-world problems and keeping systems secure. My goal is to become a System Administrator who creates reliable, safe, and
+                            intuitive digital experiences for users."</p>
+
+                        <div class="about-badges">
+                            <span class="about-badge"><i class="fab fa-linux"></i> Linux</span>
+                            <span class="about-badge"><i class="fas fa-network-wired"></i> Networking</span>
+                            <span class="about-badge"><i class="fas fa-robot"></i> Automation</span>
+                            <span class="about-badge"><i class="fas fa-palette"></i> Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <span class="logo-icon"><i class="fas fa-server"></i></span>
+                <span>SysAdmin<span class="accent">.</span></span>
+            </div>
+            <p>© 2025 Jennybill Salazar — Web-Based System Administrator Portfolio.</p>
+            <p class="footer-note">Built with <i class="fas fa-code"></i> &amp; <i class="fas fa-heart" style="color:#ff5c8a;"></i> for the System Administration project.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</body>
+
+</html>
